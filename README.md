@@ -1,46 +1,26 @@
-# 🎨 Image Colorization Fine-Tuning — SOTA 모델 파인튜닝
+# Image Colorization Fine-Tuning
 
-![Year](https://img.shields.io/badge/2022-학회%20프로젝트-blue)
-![Task](https://img.shields.io/badge/Task-Computer%20Vision%20%7C%20Colorization-purple)
-![Models](https://img.shields.io/badge/Models-DeOldify%20%7C%20ChromaGAN%20%7C%20InstColorization-orange)
+흑백 이미지 컬러화 모델을 비교 실험한 컴퓨터 비전 프로젝트입니다. DeOldify, ChromaGAN, InstColorization 세 계열을 대상으로 fine-tuning과 결과 비교를 진행했습니다.
 
-> **흑백 이미지 컬러화(Colorization) SOTA 모델 3종 Fine-Tuning 비교 실험** — DeOldify · ChromaGAN · InstColorization. 2022년 D&A 학회 DL 기수 팀 프로젝트.
+## Snapshot
 
----
+| Item | Detail |
+| --- | --- |
+| Type | Team project |
+| Period | 2022 |
+| Context | D&A DL track |
+| Role | Team member |
+| Task | Colorization model benchmarking and fine-tuning |
 
-## 🔍 Overview
+## Work Summary
 
-- **배경**: 흑백 사진·영상 컬러화는 생성형 CV의 대표 응용. 프리트레인된 SOTA 모델을 특정 도메인에 fine-tune하는 실험.
-- **범위**: 3개 SOTA 모델 적용·비교 실험.
+- 서로 다른 구조의 colorization 모델을 동일한 주제 아래 비교했습니다.
+- 각 모델의 학습 흐름과 재현 환경을 정리했습니다.
+- 결과를 프로젝트 보고서와 함께 보관했습니다.
 
-## 🧠 Approach — 3-Model Benchmark
+## Repository Layout
 
-| 모델 | 특성 |
-|------|------|
-| **DeOldify** | GAN 기반, NoGAN 학습, 노이즈·색재현 우수 |
-| **ChromaGAN** | Perceptual loss + class distribution 활용 |
-| **InstColorization** | 인스턴스 단위 컬러화 (detection + colorization) |
-
-## 📁 Structure
-
-```
-Image_Colorization_FineTuning/
-├── DeOldify/
-├── Chroma_gan/
-├── InstColorization/
-├── Deep-Learing-Project.pdf        # 프로젝트 리포트
-└── README.md
-```
-
-## 🛠 Tech Stack
-
-- Python · PyTorch · Computer Vision · GAN · Transfer Learning · Jupyter
-
-## 👤 Role
-
-- **역할**: 팀원
-- **기여**: SOTA 모델 fine-tuning 실험 · 결과 비교
-
----
-
-> 🔗 Portfolio: [Minsu5452](https://github.com/Minsu5452)
+- `DeOldify/`: DeOldify 기반 실험
+- `Chroma_gan/`: ChromaGAN 실험
+- `InstColorization/`: InstColorization 실험
+- `Deep-Learing-Project.pdf`: 프로젝트 보고서
