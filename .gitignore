@@ -1,0 +1,23 @@
+# 데이터 / 산출물
+DATASET/
+*.zip
+*.pth
+*.pt
+*.pkl
+Output_*/
+checkpoints/
+models/
+ChromaGAN_run/
+DeOldify_run/
+InstColor_run/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
