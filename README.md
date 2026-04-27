@@ -8,7 +8,6 @@
 | --- | --- |
 | 수업 | 딥러닝 |
 | 기간 | 2022.09 - 2022.12 |
-| 팀 구성 | 3인팀, 팀원 |
 | 데이터 | AI Hub 한국 음식 이미지 |
 | 과제 | grayscale image colorization fine-tuning과 모델 비교 |
 | 평가 | PSNR, SSIM, 정성 비교 |
